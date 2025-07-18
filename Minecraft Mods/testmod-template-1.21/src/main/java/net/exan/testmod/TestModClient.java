@@ -1,4 +1,10 @@
 package net.exan.testmod;
 
-public class TestModClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class TestModClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }
